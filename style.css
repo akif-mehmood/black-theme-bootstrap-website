@@ -177,12 +177,17 @@ button.btn.btn-info {
 .box-color-card p {
     font-size: 18px;
 }
+.box-card:hover {
+    height: 450px;
+    padding: 16px;
+    border-radius: 20px;
+    background: #42475B1A;
+    background: linear-gradient(180deg, rgba(66, 71, 91, 1) 4%, rgba(20, 16, 29, 1) 89%);
+}
 .box-card {
     height: 450px;
     padding: 16px;
     border-radius: 20px;
-    /* background: #42475B1A;
-    background: linear-gradient(180deg, rgba(66, 71, 91, 1) 4%, rgba(20, 16, 29, 1) 89%); */
 }
 .box-card p {
     font-size: 18px;
@@ -190,9 +195,19 @@ button.btn.btn-info {
 .img-icon {
     width: 20%;
 }
-img.right-shade {
+
+.people-say {
+    position: relative;
+}
+.right-shade {
     position: absolute;
-    right: 0px;
-    top: 2000px;
-    z-index: -100;
+    right: 0;
+    top: -410px;
+    z-index: -1;
+}
+.services-sec {
+    padding: 34px;
+    background: #6D6D6D;
+background: linear-gradient(192deg,rgba(109, 109, 109, 1) 4%, rgba(17, 16, 29, 1) 89%);
+    border-radius: 20px;
 }
