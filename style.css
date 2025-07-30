@@ -206,6 +206,7 @@ button.btn.btn-info {
     z-index: -1;
 }
 .services-sec {
+    margin-top: 100px;
     padding: 34px;
     background: #6D6D6D;
 background: linear-gradient(192deg,rgba(109, 109, 109, 1) 4%, rgba(17, 16, 29, 1) 89%);
