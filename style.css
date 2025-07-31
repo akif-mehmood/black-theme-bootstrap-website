@@ -43,7 +43,7 @@ h1.top-head {
 }
 
 p.head-line {
-    padding-top: 30px;
+    padding: 30px 0px 30px 0px;
     font-size: 16px;
     line-height: 31px;
     font-weight: 100;
@@ -97,7 +97,7 @@ h2.count {
 }
 
 button.btn.btn-info {
-    margin-top: 32px;
+    /* margin-top: 32px; */
 }
 
 .rewards-ico {
@@ -208,7 +208,26 @@ button.btn.btn-info {
 .services-sec {
     margin-top: 100px;
     padding: 34px;
-    background: #6D6D6D;
-background: linear-gradient(192deg,rgba(109, 109, 109, 1) 4%, rgba(17, 16, 29, 1) 89%);
     border-radius: 20px;
+    background: #6D6D6D;
+background: linear-gradient(190deg, rgba(109, 109, 109, 1) 0%, rgba(55, 55, 62, 1) 34%, rgba(17, 16, 29, 1) 81%);
+}
+ul {
+    padding-top: 20px;
+    padding: 0px !important;
+}
+li {
+    list-style: none !important;
+}
+li {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 35px;
+    list-style: none !important;
+}
+ul.foot-link {
+    margin-top: 30px;
+}
+i.bi {
+    font-size: 28px;
 }
