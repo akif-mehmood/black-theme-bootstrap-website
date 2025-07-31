@@ -231,3 +231,58 @@ ul.foot-link {
 i.bi {
     font-size: 28px;
 }
+
+
+@media screen and (max-width: 767px) {
+  /* Styles applied when the screen width is 767px or less */
+  body {
+    font-size: 14px;
+  }
+  .main-navigation ul {
+    flex-direction: column;
+  }
+  .hero-image {
+    height: 200px;
+  }
+  .round-get {
+    position: static;
+    left: 600px;
+    top: 250px;
+}
+img.hero2-img {
+    width: 300px;
+}
+.hero1-img {
+    right: 0px;
+    position: absolute;
+    top: 49px;
+    width: 100%;
+    z-index: -100;
+}
+h1.top-head {
+    font-size: 38px;
+    line-height: 45px;
+}
+.hero-section {
+    padding-top: 198px;
+}
+p.head-line {
+    padding: 30px 0px 30px 0px;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 100;
+    color: #FFFFFFB2;
+}
+    .hero-section {
+        padding-top: 314px;
+    }
+.round-get img {
+    width: 106px !important;
+}
+.shade {
+    top: 391px;
+    position: absolute;
+    left: 0px;
+    z-index: -100;
+}
+}
