@@ -116,6 +116,20 @@ button.btn.btn-info {
     border-radius: 40px;
     color: #00F6FF;
 }
+.rewards-ico i.bi-shield-lock-fill {
+    font-size: 25px;
+    background: #09977c36;
+    padding: 8px 12px;
+    border-radius: 40px;
+    color: #00F6FF;
+}
+.rewards-ico i.bi.bi-cursor-fill {
+    font-size: 25px;
+    background: #09977c36;
+    padding: 8px 12px;
+    border-radius: 40px;
+    color: #00F6FF;
+}
 
 .rewards p {
     margin: 0;
@@ -284,5 +298,24 @@ p.head-line {
     position: absolute;
     left: 0px;
     z-index: -100;
+}
+.sec-heading {
+    font-size: 30px;
+    line-height: 45px;
+}
+.counter-sec {
+    margin-top: 100px;
+}
+.left-box {
+    margin-bottom: 80px;
+}
+.client-log {
+    padding-bottom: 62px;
+}
+.col-12.col-md-4.col-lg-4.text-center {
+    padding: 0px 87px;
+}
+i.bi {
+    font-size: 18px;
 }
 }
